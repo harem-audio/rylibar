@@ -5,6 +5,11 @@ D 5-DIN MIDI Connector, Vertical
 K CONN DIN 5-pins 41524
 $ENDCMP
 #
+$CMP ACJC6AV2
+D XLR-3 + 1/4" Input Connector - No Switch
+K CONN, XLR, 1/4"
+$ENDCMP
+#
 $CMP Eurorack_Header_10
 D 10-pin Eurorack Header
 $ENDCMP
