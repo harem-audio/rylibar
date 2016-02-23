@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 57NC5FX
+D 5-DIN MIDI Connector, Vertical
+K CONN DIN 5-pins 41524
+$ENDCMP
+#
 $CMP Eurorack_Header_10
 D 10-pin Eurorack Header
 $ENDCMP
