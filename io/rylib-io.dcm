@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Eurorack_Header_10
+D 10-pin Eurorack Header
+$ENDCMP
+#
+$CMP Eurorack_Header_16
+D 16-pin Eurorack Header
+$ENDCMP
+#
+#End Doc Library
