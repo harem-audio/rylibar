@@ -128,4 +128,29 @@ X -12V 16 200 -700 200 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
+# RCA_Stereo
+#
+DEF RCA_Stereo P 0 40 Y N 1 F N
+F0 "P" 0 -350 50 H V C CNN
+F1 "RCA_Stereo" 0 150 50 H V C CNN
+F2 "" -100 -450 50 H V C CNN
+F3 "http://www.mouser.com/ds/2/670/rcj-21xx-519925.pdf" 50 -550 50 H I C CNN
+F4 "RCJ-2123" 0 -450 60 H I C CNN "manf#"
+$FPLIST
+ BNC_*
+ bnc
+ bnc-*
+$ENDFPLIST
+DRAW
+C 0 -200 20 0 1 8 N
+C 0 -200 70 0 1 12 N
+C 0 0 20 0 1 8 N
+C 0 0 70 0 1 12 N
+X GND 1 200 0 130 L 40 40 1 1 P
+X In 2 -200 0 175 R 40 40 1 1 P
+X GND 3 200 -200 130 L 40 40 1 1 P
+X In 4 -200 -200 175 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
