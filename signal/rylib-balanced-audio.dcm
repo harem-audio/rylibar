@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV13x
+D Balanced Audio Line Driver
+$ENDCMP
+#
+$CMP INA2134
+D Audio Differential Line Receiver
+$ENDCMP
+#
+#End Doc Library
